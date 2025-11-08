@@ -45,7 +45,7 @@ body {
 .product-list {
   display: flex;
   flex-wrap: wrap; /* Allow items to wrap to the next line */
-  justify-content: flex-start;
+  justify-content: center;
   gap: 30px; /*gap between product cards */
   padding: 20px;
 }
@@ -112,12 +112,12 @@ body {
   font-weight: bold;
 }
 
-/* For larger screens, center cards so theyre not weirdly floating*/
+/* For larger screens, center cards so theyre not weirdly floating
 @media (min-width: 769px) {
   .product-list {
     justify-content: center;
   }
-}
+}*/
 
 /* For smaller screens, adjust column count */
 @media (max-width: 768px) {
