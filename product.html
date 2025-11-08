@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="product-page">
+
+  <header>
+    <a href="index.html">← Back to shop</a>
+  </header>
+
+  <main id="product">
+    <h1 id="product-name">Loading...</h1>
+    <img id="product-image" alt="Product image" />
+    <p id="product-price"></p>
+    <p id="product-description"></p>
+  </main>
+
+  <!-- Load order matters -->
+  <script src="data.js"></script>
+  <script src="functions.js"></script>
+  <script>
+    initProductPage();
+  </script>
+
+</body>
+</html>
