@@ -146,7 +146,7 @@ margin: 20px;
 }
 
 .product-page #product-image {
-  max-width: 100vw;
+  max-width: 90vw;
   display: block;
   margin: 0 auto;
 }
