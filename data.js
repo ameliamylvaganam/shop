@@ -28,7 +28,7 @@ let data = {
          {
             slug: "clover-ring",
             title: "clover ring",
-            description: "stainless steel. size 6.",
+            description: "sterling silver. size 6.",
             coverimage: "topszine.png",
             price: 4,
         },
