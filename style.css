@@ -151,7 +151,7 @@ body {
 color: rgb(255, 243, 184);
 }
 
-.product-page #product-name {
-color: red;
-}
+.product-page #product-name,
+.product-page #product-price{
+color: maroon;
 }
